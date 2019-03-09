@@ -18,9 +18,9 @@
         app:showAsAction="never"/>
 
     <item
-        android:id="@+id/action_calc2"
+        android:id="@+id/action_clicker"
         android:orderInCategory="100"
-        android:title="@string/action_Calculator_v2"
+        android:title="@string/action_Clicker"
         app:showAsAction="never"/>
     <item
         android:id="@+id/action_settings"

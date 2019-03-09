@@ -46,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(set_enter);
                 return true;
 
+            case R.id.action_clicker:
+                Intent set_clicker = new Intent(".Clicker");
+                startActivity(set_clicker);
+                return true;
+
+
             case R.id.action_settings:
                 Intent set_settings = new Intent(".Settings");
                 startActivity(set_settings);
