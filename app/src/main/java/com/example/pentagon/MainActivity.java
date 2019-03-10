@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                         TextView resRandom = inResult();
                         int randomNum = r1 + (int) (Math.random() * ((r2 - r1)+1));
 
-                        resRandom.setText(Float.toString(randomNum));
+                        resRandom.setText(Integer.toString(randomNum));
                     }
                 }
         );

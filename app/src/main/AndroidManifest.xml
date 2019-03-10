@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Clicker">
+        <activity android:name=".Clicker"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name=".Clicker" />
 

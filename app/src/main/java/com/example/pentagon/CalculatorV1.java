@@ -59,8 +59,8 @@ public class CalculatorV1 extends AppCompatActivity {
         int n2 = funcNum2();
         TextView resTex = inResult();
 
-        float resSum = n1 + n2;
-        resTex.setText(Float.toString(resSum));
+        int resSum = n1 + n2;
+        resTex.setText(Integer.toString(resSum));
     }
 
     public void subButton (View v){
@@ -68,8 +68,8 @@ public class CalculatorV1 extends AppCompatActivity {
         int n2 = funcNum2();
         TextView resTex = inResult();
 
-        float resSub = n1 - n2;
-        resTex.setText(Float.toString(resSub));
+        int resSub = n1 - n2;
+        resTex.setText(Integer.toString(resSub));
     }
 
     public void mulButton (View v){
@@ -77,8 +77,8 @@ public class CalculatorV1 extends AppCompatActivity {
         int n2 = funcNum2();
         TextView resTex = inResult();
 
-        float resMul = n1 * n2;
-        resTex.setText(Float.toString(resMul));
+        int resMul = n1 * n2;
+        resTex.setText(Integer.toString(resMul));
     }
 
     public void divButton (View v){
